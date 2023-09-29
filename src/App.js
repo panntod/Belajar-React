@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="container unselectable">
       <h1>Counter App</h1>
       <p className="counter">Count: {count}</p>
       <div className="container-btn">
