@@ -1,14 +1,12 @@
 .container{
-  padding: 6rem 3rem;
-  width: fit-content;
+  padding: 9rem 6rem;
+  height: max-content;
   border-radius: 1.5rem;
   border: 1px solid black;
 }
 
-.container-btn{
-  justify-content: space-between;
-  margin-top: 1rem;
-  display: flex;
+.container h1{
+  font-size: 48px;
 }
 
 .counter{
@@ -21,11 +19,17 @@
   box-shadow: 0 0 3px black;
 }
 
+.container-btn{
+  justify-content: space-between;
+  margin-top: 3rem;
+  display: flex;
+}
+
 .btn{
   border: none;
-  padding: .5rem .9rem;
+  padding: 1rem 2.4rem;
   color: white;  
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   box-shadow: 0 0 6px black;
 }
 
